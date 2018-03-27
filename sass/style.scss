@@ -1,0 +1,47 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: silver;
+  h1 {
+    text-align: center;
+    padding-top: 25px;
+  }
+}
+main {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.bonus {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 10%;
+  div {
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    text-align: center;
+  }
+  h2 {
+    padding-top: 50%;
+  }
+  #test {
+    background-color: seagreen;
+  }
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  li {
+    width: 200px;
+    height: 100px;
+  }
+}

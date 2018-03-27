@@ -1,0 +1,58 @@
+/* line 1, ../sass/style.scss */
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+/* line 6, ../sass/style.scss */
+header {
+  width: 100%;
+  height: 100px;
+  background-color: silver;
+}
+/* line 10, ../sass/style.scss */
+header h1 {
+  text-align: center;
+  padding-top: 25px;
+}
+
+/* line 15, ../sass/style.scss */
+main {
+  text-align: center;
+  padding-top: 5%;
+}
+
+/* line 20, ../sass/style.scss */
+.bonus {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-top: 10%;
+}
+/* line 25, ../sass/style.scss */
+.bonus div {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  text-align: center;
+}
+/* line 31, ../sass/style.scss */
+.bonus h2 {
+  padding-top: 50%;
+}
+/* line 34, ../sass/style.scss */
+.bonus #test {
+  background-color: seagreen;
+}
+
+/* line 39, ../sass/style.scss */
+ul {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+/* line 43, ../sass/style.scss */
+ul li {
+  width: 200px;
+  height: 100px;
+}
